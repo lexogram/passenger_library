@@ -2,12 +2,12 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "rake"
+gem "rake", ">= 12.3.3"
 
-gem "middleman", "~>3.4"
+gem "middleman", "~> 4.4", ">= 4.4.0"
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.4.0"
+gem "middleman-livereload", "~> 3.4.6"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
@@ -15,9 +15,9 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
-gem "kramdown"
+gem "kramdown", ">= 2.3.0"
 gem "middleman-syntax"
 
-gem "middleman-search_engine_sitemap"
+gem "middleman-search_engine_sitemap", ">= 1.4.0"
 
 gem "uuidtools"
