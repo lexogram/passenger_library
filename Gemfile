@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 gem "rake"
 
-gem "middleman", "~>3.4"
+gem "middleman", "~> 4.0", ">= 4.0.0"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.4.0"
@@ -18,6 +18,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 gem "kramdown"
 gem "middleman-syntax"
 
-gem "middleman-search_engine_sitemap"
+gem "middleman-search_engine_sitemap", ">= 1.4.0"
 
 gem "uuidtools"
